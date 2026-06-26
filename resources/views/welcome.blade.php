@@ -58,6 +58,7 @@
                     </p>
 
                     <p class="text-[10px] text-slate-400 flex items-center mt-0.5">
+                        {{-- hadi knhsbo biha lw9t li dar fdik larticle --}}
                         <span>{{ $post->created_at->diffForHumans() }}</span>
                         <span class="mx-1.5">•</span>
                         <i class="fas fa-globe-americas text-[10px]" title="Public"></i>
