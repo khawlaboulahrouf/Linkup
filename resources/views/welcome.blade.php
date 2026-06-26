@@ -1,5 +1,5 @@
 @extends('layouts.header')
-
+{{-- had blasa li reservit f header hat fiha hadchi li ayji mn had page --}}
 @section('content')
 
     <div class="bg-white rounded-xl border border-slate-200 shadow-sm p-4">
@@ -35,7 +35,7 @@
         </div>
     </div>
 
-
+{{-- drt bocle 3la les articles bach ytl3o  btrtib  --}}
         @foreach ($posts as $post)
     <article class="bg-white rounded-xl border border-slate-200 shadow-sm p-4 space-y-3 transition duration-150 hover:border-slate-300 mb-4">
 
