@@ -46,6 +46,8 @@ class User extends Authenticatable
             'password' => 'hashed',
         ];
     }
+
+    //kola user kydir bzaf dyal posts
     public function posts()
     {
     return $this->hasMany(Post::class);
