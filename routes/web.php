@@ -5,6 +5,8 @@ use App\Http\Controllers\PostController;
 
 Route::get('/feed',[PostController::class, 'index']);
 
-//Route::resource('posts' , PostController::class);
+
+
+Route::resource('posts' , PostController::class);
 
 
